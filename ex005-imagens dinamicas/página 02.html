@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Ajustando elementos</title>
+</head>
+<body>
+
+    <h1>Demais exemplos</h1>
+
+    <p><a href="index.html"rel="next"target="_self">Voltar</a></p>
+
+    <p>Ajuste a tela em diferentes tamanhos para observar a diferença</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML 5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/farbehing.mp3" type="audio/mpeg">
+    </audio>  
+    <!--compativel aos formatos MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegur reproduzir aúdio. <a href="midia/guanacast-33.mp3">Clique aqui para abixar o arquivo mp3</a></p>
+    </audio>
+
+    <h2>Reproduzindo vídeos</h2>
+    <p>Vamos aprender a reproduzir vídeos.</p>
+    <video src="midia/meu-video.mp4.mp4 "width="350" height="220"  autoplay loop poster="imagens/capa-video.png" controls></video>   
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="350" height="220" src="https://www.youtube.com/embed/fju71JIIxYs?si=gHQWWMkvORQRCyf_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/345319602?h=503c5e9d9f&title=0&portrait=0" width="350" height="220" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+</html>

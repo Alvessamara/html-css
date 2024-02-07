@@ -1,0 +1,166 @@
+/*Medidas absolutas: cm,mm,in(polegada),px,pt.,pc
+Medidas Relativas:em,ex,rem,vw,vh,
+Recomendação use px ou em 
+height:altura
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');/*Google-fontes*/
+
+@font-face {/*Fontes- externas*/
+    font-family: 'Consola' ;
+    src: url('fontes/ConsolaMono-Bold.ttf') format('opentype'), url('fontes/ConsolaMono-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* tipos de format()
+- opentype
+-truetype
+-embedded-opentype
+-truetype-aat(Apple Advanced Typography)
+-svg*/
+
+body{
+
+    background-image: linear-gradient(to right, #01EBD4, #25B8A9,#35857D, #31524E );/*efeito degrade*/
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1em;
+    /*text-decoration: underline;subrinhado*/
+    box-shadow:  5px 5px 10px #1d2a29;/*sombreamento*/
+    width: 650px; /*largura*/
+    padding: 10px;
+    margin:auto ;
+    font-weight: normal ;/*peso*/
+
+    /* shorthand font
+    - font-style, font-weight,font-size,font-family*/
+ 
+}
+
+h1{
+   color:#3b6b68;
+   text-align: justify;
+   text-shadow: 1px 1px 2px #588d89 ;
+   font-size:20px;
+   font-family: 'Sixtyfour', sans-serif;  
+}
+
+/* em HTML é id = em CSS é # único
+em HTML é class = em CSS é . multiplo */ 
+
+h1#principal{
+    text-align: center;
+    color: #31524E;
+    background-color: #e1f1f0;
+}
+h2#subtitulo{
+    color:#041c1a;
+    background-color: #01EBD4;
+}
+
+h2{
+    font-family: 'Consola', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    
+}
+.basico{
+  
+    color:#25B8A9
+    
+}
+.intermediario{
+    
+    color:#ca2f3c
+}
+.avancado{
+
+    color:#1d2a29
+}
+.destaque{
+    background-color:#90f7ef ;
+}
+
+.inicial{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+div{
+    display: inline-block;/*tudo na mesma linha*/
+    background-color:#8dbeba;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;/*altura*/
+    width:200px ;/*largura*/
+}
+
+div > p{ /*Deixar texto oculto*/
+    display:none;
+}
+div:hover > p{ /* Deixar texto a mostra*/
+    display:block;
+    color: white;
+    background-color: blue;
+
+}
+
+div:hover {/*quando passado mouse em cima*/
+
+color:rgb(242, 9, 9);
+}
+    
+div#d1{
+background-color: #01EBD4;
+}
+div#d2{
+background-color:#25B8A9 ;
+}
+div#d3{
+background-color:#125751  ;
+}
+div#d4{
+    background-color: rgb(129, 227, 236);
+    display:inline-block;
+}
+a{ /*links*/
+    color:#2fc5ca;
+    text-decoration: none;/*tirar o subrinhado*/
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+
+}
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+a:active{
+    color:yellow;
+}
+a::after{ /*content:conteudo*/
+    content:'⇇';
+  
+  
+}
+a::before{
+    content:'⇉	'
+}
+.especial{
+    background-color: rgb(227, 101, 101);
+}
+

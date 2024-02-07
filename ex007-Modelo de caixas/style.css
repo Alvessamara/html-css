@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(156, 181, 172);
+    margin:0px;
+}
+
+h1{
+    
+    height: 300px;
+    width: 300px;
+    background-color: rgb(145, 201, 182);
+    border: 10px double rgb(180, 240, 120);
+    padding: 21px;
+    margin:auto; /*centralizar*/
+    outline: 2px dashed #476340;   /*tracejado*/
+}
+
+h1{
+    
+    height: 300px;
+    width: 300px;
+    background-color: rgb(145, 201, 182);
+    border: 10px double rgb(180, 240, 120);
+    padding: 21px;
+    margin:auto; /*centralizar*/
+    outline: 2px dashed #476340;   /*tracejado*/
+}
+
+
+h2{
+ text-align: center;
+ padding: 1px;
+ 
+}
+
+h3{
+    text-align: center;
+}
+nav{
+    background-color: rgb(139, 159, 152);
+    padding: 2px;
+    box-shadow: 3px 3px 3px black;/*sombras*/
+}
+nav > a{
+    text-decoration: none;
+    color:rgb(13, 9, 9);
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    
+   
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+}
+section > p{
+    text-align: center;
+    text-decoration: none;
+    background-color:rgb(100, 167, 154);
+}
+article{
+    background-color: #98b890;
+}
+article > aside{
+    background-color:#476340;
+    text-align:right;
+}
+.descricao{
+    background-color: rgb(42, 160, 115);
+}
+.escrita{
+    background-color: rgb(32, 120, 86) ;
+}
+
+
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    
+}
+footer > p{
+    margin: 5px;
+}

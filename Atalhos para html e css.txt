@@ -1,0 +1,57 @@
+                                                     HTML 5 e CSS 3
+
+
+Manual das linguagens 
+
+Referência MDN
+W3S Standard
+Whating living standard
+
+
+  Domínio                                          hospedagem                             
+
+nome único                                       Espaço para armazenar arquivos
+pago anualmente                                  pago mensamelmente
+vários TLDS                                      espaço, memórias e recursos
+
+
+ Semantica
+
+Strong(negrito)/ em (itálico)
+Main/ section/ article
+
+
+                                           Comando de Atalho 
+
+CTRL+SHIFT+P= Abb(Wrap Whit Abbreviation) delimita a frase como um atalho para defini-la como strong, br, hr, q e etc.
+
+<nav> barra de navegação
+
+<section> agrupamento por categorias
+
+<article> utilizado para elementos informativos 
+
+<q> aspas (usado para citações)
+
+<blockquote> deslocamento de linha
+
+<del> texto deletado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          
