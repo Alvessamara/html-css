@@ -34,12 +34,13 @@ nav>a{
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
-    padding-top: 40px;
-   margin-bottom: 20px;
+    
+   
+   
 }
 nav>a:hover{
     text-decoration: underline;
-    background-color:rgba(66, 127, 89, 0.996);
+    background-color:rgba(60, 92, 72, 0.996);
 }
 
 
@@ -52,6 +53,7 @@ h1{
 header>p{
     color:white;
     margin: auto;
+    padding: 20px 20px;
     max-width: 600px;
     text-shadow: 2px 2px 0px black;
 }
