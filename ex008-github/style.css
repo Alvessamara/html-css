@@ -1,0 +1,22 @@
+body{
+    background-image: url('imagens/wallpaper005.jpg');
+}
+
+div.quadrado{
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    display: inline-block;/*ficar um do lado do outro*/
+    border-radius: 10px;
+    background-color: rgb(156, 147, 147);
+    
+}
+div#q1{
+background-color: pink;
+}
+div#q2{
+background-image: linear-gradient(to left, rgb(244, 236, 237), rgb(182, 110, 122));
+}
+div#q3{
+background-image: url('imagens/pattern003.png');/*adicionar imagem a div*/
+}
