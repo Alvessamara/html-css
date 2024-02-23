@@ -16,9 +16,32 @@ body{
 main{
     background-color: white;
     max-width: 400px;
-    padding: 10px;
+    padding: 10px 10px;
     margin: auto;/*alinhar ao meio*/
     border: 3px solid rgb(13, 13, 26);
     border-radius: 12px;
+    
 
+}
+#container{
+
+background-image:url('imagens/target001.png') ;
+background-size: 100% 100%;
+position: relative;
+height: 96vh;
+background-color: red;
+padding: 10px;
+}
+
+#conteudo{
+
+background-image:url('imagens/target001.png') ;
+background-size: 100% 100%;
+position: absolute;
+height: 200px;
+width: 300px;
+background-color: rgb(72, 16, 16);
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
 }
