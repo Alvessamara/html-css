@@ -1,14 +1,21 @@
 body{
     height: 100vh;
-    background-color: black;
+    /*background-color: black;
     background-image: url(imagens/wallpaper001.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-size: auto;
+    background-attachment: fixed;
+    
+    *shorthand - background color >image>position>repeat>[size]>attachment*/
+
+    background: black url('imagens/wallpaper001.jpg') center center repeat fixed;
+    background-size: auto;
 }
+
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;/*alinhar ao meio*/
     border: 3px solid rgb(13, 13, 26);
