@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+
 body{
     min-width: 100%;
    
@@ -15,6 +16,7 @@ header{
 }
 header > h1{
 padding-top: 50px;
+font-size: 8vw;
 font-variant: small-caps;/*formato maiusculo*/
 }
 
@@ -37,16 +39,19 @@ section{
 }
 section.normal{
     background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
 section.imagem{
     background-color: rgb(18, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 
 }
 section.imagem >p{
     background-color: rgba(0, 0, 0, 0.427);
-    width: 400px;
+    padding: 5px;
+    display: inline-block;
 }
 footer{
     background-color: black;
