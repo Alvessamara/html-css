@@ -15,16 +15,73 @@
         h1{
             text-align: center;
             background-color: rgb(239, 236, 232);
-            border-radius: 10px;
+            border-radius: 2px;
+            box-shadow: 5px 5px grey;
         }
+        
     </style>
 </head>
 <body>
-     <h1>Formulário</h1>
-     <form>
-        <p>Nome: <input type="text" name="Nome"  id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+     <h1>Ficha de cadastro escolar</h1>
+
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repudiandae dolorum delectus ut suscipit, asperiores officia, laudantium animi incidunt magnam necessitatibus voluptatem obcaecati esse soluta iure labore ipsa deserunt explicabo?
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, consectetur sunt nemo veniam repellendus, voluptas neque accusamus inventore, blanditiis nisi iste rerum nihil omnis dolores reprehenderit repellat ea placeat ipsam.
+     </p>
+
+     
+     <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">NOME:</label>
+             <input type="text" name="Nome"  id="inome" required size="10" autocomplete="username">
+        </p>
+
+        <p>
+          <label for="isobrenome">SOBRENOME:</label>
+          <input type="text" name="sobrenome" id="isobrenome" required size="10" autocomplete="nickname">
+        </p>
+
+        <p>
+            <label for="imedia">MÉDIA :</label>
+            <input type="number" name="média" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.1" required>
+        </p>
+
+        <p>
+            <label for="imes">PERÍODO LETIVO:</label>
+            <input type="month" name="mes" id="imes" value="2024-08">
+        </p>
+
+        <p>
+            <label for="idia">DIA DA PROVA:</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+
+        <p>
+            <label for="ihora">HORÁRIO DA PROVA:</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+
+        <p>
+            <label for="itel">TELEFONE PARA CONTATO:</label>
+            <input type="tel" name="tel" id="itel">
+        </p>
+
+        <p>
+            <label for="iemail">EMAIL:</label>
+            <input type="email" name="email" id="iemail" placeholder="@gmail.com">
+        </p>
+
+
+        <p>
+        <label for="isenha">SENHA:</label>
+         <input type="password" name="senha" id="isenha" required minlength="6" maxlength="20" placeholder="Min 6 caracteres" autocomplete="current-password" >
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
      </form>
     
 </body>
