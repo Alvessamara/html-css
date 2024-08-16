@@ -74,12 +74,39 @@
             <label for="isenha">SENHA:</label>
              <input type="password" name="senha" id="isenha" required minlength="6" maxlength="20" placeholder="Min 6 caracteres" autocomplete="current-password" >
             </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Somatória</legend>
             <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                <label for="in1">Número 01:</label>
+                <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="in2">Número 02:</label>
+                <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+            </p>
+
+            <p>
+                <label for="isoma">Soma:</label>
+                <output nome="soma" id="isoma">0</output>
+            </p>
+
+            <p>
+                <label for="inum">Números</label>
+                <input type="range" name="num" id="inum" min="0" max="10" value="1" oninput="ival.innerHTML =Number(inum.value)">
+                <output id="ival">1</output>
             </p>
             
         </fieldset>
+       
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+       
      </form>
 
      

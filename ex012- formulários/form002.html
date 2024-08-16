@@ -14,7 +14,19 @@
             <label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome"><br>
 
+            <p>
+            <label for="iano">Ano de nascimento:</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2015" oninput="calcIdade()"> 
+            </p> 
+
+            <p>
+            <label for="iidad">Sua idade é:</label>
+            <output id="iidad">0</output>
+            </p>
+             
+            <p>
             <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label>
+            
 
             <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label>
 
@@ -93,6 +105,13 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
+
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            iidad.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
     
 </body>
 </html
