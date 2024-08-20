@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /*Aparelho em pé (orientation: landscape)*/
+
+body{
+    background-image:  url(../imagens/cev-portrait.jpg);
+}
