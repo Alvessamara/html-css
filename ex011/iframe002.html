@@ -6,8 +6,9 @@
     <title>Testando iframe 002</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet" >
+    <link rel="stylesheet" href="estilos/media.query.css">
 </head>
-<body>
+<body onresize="Tamanho()">
     <header>
       <h1>Faça uma escolha</h1>
       <i id="icon" class="material-icons" onclick="clikMenu()">menu</i>
@@ -47,11 +48,16 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident repudiandae 
         <p>Seu navegador não é compativel com o site</p>
     </iframe>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla suscipit laboriosam velit, corporis ratione sapiente maiores voluptate cupiditate. Culpa dignissimos impedit itaque officia nobis, in velit praesentium explicabo maxime soluta?
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident repudiandae dolor tempore esse voluptate! Tempore et, necessitatibus harum exercitationem quas voluptate non, illo molestiae laudantium dolorem provident sit, quaerat hic!
-    </p>
+   
 
     <script>
+        function Tamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
         function clikMenu() {
            if (itens.style.display == 'block'){
                itens.style.display = 'none'
